@@ -29,7 +29,7 @@ $(function() {
             let caption = v.abstract;
             let read = v.short_url;
             $('#newsId').append(
-              '<div class="show'+ count +' newsBox" style="background-image:url(' + source + ');"><a href="'+ read+'" target="_blank"><p class="newsCaption">' + caption +'</p></a></div>'
+              '<a href="'+ read+'" target="_blank"><div class="show'+ count +' newsBox" style="background-image:url(' + source + ');"><p class="newsCaption">' + caption +'</p></div></a>'
             );
           }
         });
